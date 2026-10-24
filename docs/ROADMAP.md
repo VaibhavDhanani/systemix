@@ -99,7 +99,7 @@ Backend domain modules (each owns its models, schemas, service, and router):
   branch through a pull request.
 - When a phase meets its definition of done, a pull request `phase/<n>-… → main` is opened,
   reviewed, and merged by Vaibhav.
-- A local `pre-push` hook (`.githooks/pre-push`) also refuses pushes to `main`.
+- A GitHub ruleset enforces this: direct pushes to `main` are rejected.
 
 ---
 
