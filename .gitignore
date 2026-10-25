@@ -1,2 +1,20 @@
 # Claude Code settings (local only)
 .claude/
+
+# Environment files (commit only the *.example versions)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
